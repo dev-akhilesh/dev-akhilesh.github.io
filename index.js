@@ -2,13 +2,13 @@ var successSound = document.getElementById("success-sound");
 
 document.getElementById("resume-link-1").addEventListener("click", () => {
   window.open(
-    "https://drive.google.com/file/d/1riA923Sppz31hfNDHd_VumC_tHHHc5hI/view?usp=share_link"
+    "https://drive.google.com/file/d/1L55nnas2vqeTWZOvyZREbJWX-TsJRswS/view?usp=sharing"
     );
   });
   
   document.getElementById("resume-link-2").addEventListener("click", () => {
     window.open(
-      "https://drive.google.com/file/d/1riA923Sppz31hfNDHd_VumC_tHHHc5hI/view?usp=share_link"
+      "https://drive.google.com/file/d/1L55nnas2vqeTWZOvyZREbJWX-TsJRswS/view?usp=sharing"
       );
     });
     

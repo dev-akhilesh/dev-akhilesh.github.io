@@ -27,6 +27,9 @@
       href="https://cdn.jsdelivr.net/gh/cdgco/techfont@latest/dist/techFont.css"
     />
 
+    <!-- for github calendar -->
+    <script src="https://cdn.jsdelivr.net/npm/github-calendar@1.1.0/dist/github-calendar.min.js"></script>
+
     <title>Akhilesh Takawale</title>
   </head>
 
@@ -94,7 +97,7 @@
     </header>
 
     <!--==================== MAIN ====================-->
-    
+
     <main class="main">
       <!--==================== HOME ====================-->
       <section class="home section" id="home">
@@ -265,7 +268,6 @@
 
         <div class="portfolio_container container swiper-container">
           <div class="swiper-wrapper">
-
             <!-- ========== Project 1 Not Updated========== -->
             <!-- <div class="portfolio_content grid swiper-slide project-card">
               <img
@@ -382,7 +384,14 @@
                   BodyBlitz Gym
                 </h3>
                 <p class="portfolio_description project-description">
-                  This web application is built using React.js, Material-UI for styling, and leverages the Rapid API to provide a comprehensive set of features for fitness enthusiasts. User can explore exercise categories, target specific muscle groups, access detailed exercise information with practical examples, utilize pagination for a vast exercise library, view related YouTube videos, discover similar exercises, and search for exercises tailored to your fitness needs.
+                  This web application is built using React.js, Material-UI for
+                  styling, and leverages the Rapid API to provide a
+                  comprehensive set of features for fitness enthusiasts. User
+                  can explore exercise categories, target specific muscle
+                  groups, access detailed exercise information with practical
+                  examples, utilize pagination for a vast exercise library, view
+                  related YouTube videos, discover similar exercises, and search
+                  for exercises tailored to your fitness needs.
                 </p>
                 <p class="project-tech-stack">
                   <b>Tech Stack : </b> React | Material-UI | Rapid-API
@@ -740,12 +749,19 @@
 
       <!--==================== GITHUB STATES ====================-->
 
-      <!-- <section class="about section container react-activity-calendar" id="github">
-            <h2 class="section__title">Github contributions in the last year</h2>
-            <div class="react-activity-calendar calendar"> -->
-      <!-- Loading stuff -->
-      <!-- </div>
-        </section> -->
+      <section
+        class="about section container react-activity-calendar"
+        id="github"
+      >
+        <h2 class="section__title">Github contributions in the last year</h2>
+        <div class="react-activity-calendar calendar">
+          <img
+            class="portfolio__content grid swiper-slide"
+            src="https://ghchart.rshah.org/dev-akhilesh"
+            alt="GitHub Contributions Calendar"
+          />
+        </div>
+      </section>
 
       <!--==================== Github actitvities ====================-->
 
@@ -765,19 +781,24 @@
               id="github-top-langs"
               class="portfolio__content grid swiper-slide"
               src="https://github-readme-stats.vercel.app/api/top-langs/?username=dev-akhilesh&show_icons=true&locale=en&layout=compact&theme=github_dark&hide_border=true"
-              alt="ovi"
+              alt="dev-akhilesh GitHub stats"
             />
 
             <img
               id="github-stats-card"
               class="portfolio__content grid swiper-slide"
               src="https://github-readme-stats.vercel.app/api?username=dev-akhilesh&show_icons=true&locale=en&theme=github_dark&hide_border=true"
-              alt="ovi"
+              alt="dev-akhilesh's GitHub stats"
             />
 
             <img
               class="portfolio__content grid swiper-slide"
               src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=dev-akhilesh&theme=github_dark"
+            />
+            <img
+              class="portfolio__content grid swiper-slide"
+              src="https://ghchart.rshah.org/dev-akhilesh"
+              alt="GitHub Contributions Calendar"
             />
           </div>
 
@@ -822,7 +843,7 @@
             <div class="contact__information">
               <a
                 id="contact-linkedin"
-                href="https://www.linkedin.com/in/avishek-singh-007/"
+                href="https://www.linkedin.com/in/akhilesh8424 /"
                 target="_blank"
                 ><i class="uil uil-phone-alt contact__icon"></i
               ></a>
@@ -978,29 +999,31 @@
   </body>
 
   <script src="https://unpkg.com/scrollreveal"></script>
+
   <!--==================== GITHUB STATES LIBRARY ====================-->
-  <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
-  <script>
-    GitHubCalendar(".Github-calendar", "avisingh017", { responsive: true });
-  </script>
+  <!-- <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script> -->
+  <!-- <script>
+    GitHubCalendar(".Github-calendar", "dev-akhilesh", { responsive: true });
+  </script> -->
 
   <!--==================== SWIPER JS ====================-->
   <script src="js/swiper-bundle.min.js"></script>
 
   <!--==================== MAIN JS ====================-->
   <script src="js/main.js"></script>
+
   <script src="https://unpkg.com/typed.js@2.0.132/dist/typed.umd.js"></script>
   <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
   <script src="https://unpkg.com/scrollreveal"></script>
 
-  <script>
+  <!-- <script>
     // or enable responsive functionality
-    GitHubCalendar(".calendar", "avisingh017", {
+    GitHubCalendar(".calendar", "dev-akhilesh", {
       responsive: true,
       global_stats: true,
       tooltips: true,
     });
-  </script>
+  </script> -->
 
   <!-- ==================== SCROLL REVEAL ANIMATION ==================== -->
   <script>
